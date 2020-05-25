@@ -1,0 +1,639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	<!-- Curio Interaction -->
+	<entry id="str_quirk_description_ablutomania"><![CDATA[40% chance to interact with Fountain curios.
+	Bad: Courtyard+/Cove.]]></entry>
+	<entry id="str_quirk_description_bloodthirsty"><![CDATA[35% chance to interact with Torture curios.
+	Bad: Courtyard+/Ruins.]]></entry>
+	<entry id="str_quirk_description_dacnomania"><![CDATA[40% chance to interact with Torture curios.
+	Bad: Courtyard+/Ruins.]]></entry>
+	<entry id="str_quirk_description_compulsive"><![CDATA[20% chance to interact with ALL curios.
+	Bad: Courtyard, everywhere.]]></entry>
+	<entry id="str_quirk_description_curious"><![CDATA[20% chance to interact with ALL curios.
+	Bad: Courtyard, everywhere.]]></entry>
+	<entry id="str_quirk_description_corvids_curiosity"><![CDATA[27.5% chance to interact with ALL curios.
+	Bad: Courtyard, Everywhere.]]></entry>
+	<entry id="str_quirk_description_corvids_appetite"><![CDATA[33% chance to interact with Food curios.
+	Bad: Courtyard(+)/Warrens/Weald/Cove.
+	Bring Blight/Disease Resist.]]></entry>
+	<entry id="str_quirk_description_dipsomania"><![CDATA[40% chance to interact with Drink curios.
+	Bad: Courtyard+/Warrens+/Cove
+	Bring Blight/Disease Resist.]]></entry>
+	<entry id="str_quirk_description_egomania"><![CDATA[40% chance to interact with Reflective curios. Steals items.
+	Bad: Courtyard.]]></entry>
+	<entry id="str_quirk_description_dark_temptation"><![CDATA[40% chance to interact with Unholy curios.
+	Bad: Everywhere but Ruins.]]></entry>
+	<entry id="str_quirk_description_demonomania"><![CDATA[40% chance to interact with Unholy curios.
+	Bad: Everywhere but Ruins.]]></entry>
+	<entry id="str_quirk_description_guilty_conscience"><![CDATA[35% chance to interact with Worship curios.
+	Bad: Warrens+/Ruins/Cove.]]></entry>
+	<entry id="str_quirk_description_hagiomania"><![CDATA[40% chance to interact with Worship curios.
+	Bad: Warrens+/Ruins/Cove.]]></entry>
+	<entry id="str_quirk_description_hieromania"><![CDATA[35% chance to interact with Worship curios.
+	Bad: Warrens+/Ruins/Cove.]]></entry>
+	<entry id="str_quirk_description_hylomania"><![CDATA[35% chance to interact with Treasure curios.
+	Bad: Courtyard+/Everywhere.]]></entry>
+	<entry id="str_quirk_description_kleptomaniac"><![CDATA[35% chance to interact with Treasure curios. Steals items.
+	Bad: Courtyard+/Everywhere.]]></entry>
+	<entry id="str_quirk_description_plutomania"><![CDATA[40% chance to interact with Treasure curios.
+	Bad: Courtyard+/Everywhere.]]></entry>
+	<entry id="str_quirk_description_necromania"><![CDATA[40% chance to interact with Body curios.
+	Bad: Courtyard+/Warrens/Weald
+	Bring Blight/Disease Resist.]]></entry>
+	<entry id="str_quirk_description_paranormania"><![CDATA[40% chance to interact with Haunted curios.
+	Bad: Ruins+/Courtyard+/Warrens/Weald.]]></entry>
+	<entry id="str_quirk_description_sitiomania"><![CDATA[40% chance to interact with Food curios.
+	Bad: Courtyard+/Warrens+/Weald/Cove.
+	Bring Blight/Disease Resist.]]></entry>
+	
+	
+	<!-- Town Stuff -->
+	<entry id="str_quirk_description_alcoholism"><![CDATA[In town, will only Drink for stress relief.]]></entry>
+	<entry id="str_quirk_description_gambler"><![CDATA[In town, will only Gamble for stress relief. When Gambling, can win or lose trinkets. 
+	If this character would lose a trinket, they will lose one they have equipped
+	otherwise it takes from stash. Give them bad trinkets to gamble with.]]></entry>
+	<entry id="str_quirk_description_bad_gambler"><![CDATA[+11.4% chance to lose money and +13.3% chance
+	to lose trinkets while Gambling.]]></entry>
+	<entry id="str_quirk_description_skilled_gambler"><![CDATA[+12.9% chance to win money and +13.3% chance
+	to win trinkets while Gambling.]]></entry>
+	<entry id="str_quirk_description_god_fearing"><![CDATA[In town, will only Pray for stress relief.]]></entry>
+	<entry id="str_quirk_description_love_interest"><![CDATA[In town, will only visit the Brothel for stress relief.]]></entry>
+	<entry id="str_quirk_description_deviant_tastes"><![CDATA[Is not allowed to visit the Brothel. For reasons best left to discretion.]]></entry>
+	<entry id="str_quirk_description_enlightened"><![CDATA[In town, will only Meditate for stress relief.]]></entry>
+	<entry id="str_quirk_description_faithless"><![CDATA[Will not Pray or Flagellate for stress relief.]]></entry>
+	<entry id="str_quirk_description_flagellant"><![CDATA[In town, will only Flagellate for stress relief.]]></entry>
+	<entry id="str_quirk_description_known_cheat"><![CDATA[Is not allowed to Gamble while in town.]]></entry>
+	<entry id="str_quirk_description_meditator"><![CDATA[Improved stress reduction while Meditating and while Camping.]]></entry>
+	<entry id="str_quirk_description_resolution"><![CDATA[In town, will never Drink.]]></entry>
+	<entry id="str_quirk_description_unquiet_mind"><![CDATA[May not Meditate while in town.]]></entry>
+	<entry id="str_quirk_description_witness"><![CDATA[Will not Pray for stress relief.]]></entry>
+	<!-- Battle -->
+	<entry id="str_quirk_description_calm"><![CDATA[15% Reduced damage for first round of combat.]]></entry>
+	<entry id="str_quirk_description_improved_balance"><![CDATA[+15% Move Resist.]]></entry>
+	<entry id="str_quirk_description_fated"><![CDATA[10% Chance to turn any MISS into a HIT. Note it has to be a MISS not a DODGE.
+	(a MISS occurs when enemies are stunned)]]></entry>
+	<!-- Torchlight -->
+	<entry id="str_quirk_description_lurker"><![CDATA[+10% Damage if Torch below 26.]]></entry>
+	<!-- Misc Stats -->
+	<entry id="str_quirk_description_thanatophobia"><![CDATA[+20% stress received when Health is below 50%]]></entry>
+	<!-- Stats -->
+	<entry id="str_quirk_description_clotter"><![CDATA[+15% Bleed Resistance.]]></entry>
+	<!-- Misc garbage -->
+	<entry id="str_quirk_description_back_tracker"><![CDATA[No stress penalty when walking backwards.]]></entry>
+	<entry id="str_quirk_description_claustrophobia"><![CDATA[+20% Stress in corridors.]]></entry>
+	<!-- Totally diseases?? -->
+	<entry id="str_quirk_description_syphilis"><![CDATA[The Great Pox...a sign of indiscretions.]]></entry>
+	<!-- Unused Quirks? -->
+	<entry id="str_quirk_description_devout"><![CDATA[Rejects pagan beliefs and many occult practices. Unused Quirk?]]></entry>
+	<entry id="str_quirk_description_leprosy"><![CDATA[Leprosy... Unused Quirk?]]></entry>
+	<entry id="str_quirk_description_necrophobia"><![CDATA[Intense fear of dead bodies. Unused Quirk?]]></entry>
+	<entry id="str_quirk_description_tither"><![CDATA[Pays extra gold for all Abbey activities. Unused Quirk?]]></entry>
+	<entry id="str_quirk_description_wasting_sickness"><![CDATA[Life drains with each step... Unused Quirk?]]></entry>
+	<!-- Stopped at quirk 2213 -->
+	<!-- Stopped at quirk 2670 is torch lught effects -->
+	<!-- Weald 3815 -->
+	<entry id="town_quest_description_plot_kill_brigand_cannon_1"><![CDATA[RES: {colour_start|stun}200% Stun{colour_end} {colour_start|blight}200% Blight{colour_end} {colour_start|bleed}200% Bleed{colour_end} {colour_start|debuff}200% Debuff{colour_end} {colour_start|move}100% Move{colour_end} Ironwork. This 45% PROC boss only summons reinforcements. If a Matchman gets a turn, There's a 65% chance of catastrophic full party damage + {colour_start|stress}Stress{colour_end}.]]></entry>
+    <entry id="town_quest_description_plot_kill_brigand_cannon_2"><![CDATA[RES: {colour_start|stun}220% Stun{colour_end} {colour_start|blight}220% Blight{colour_end} {colour_start|bleed}220% Bleed{colour_end} {colour_start|debuff}220% Debuff{colour_end} {colour_start|move}120% Move{colour_end} Ironwork. This 45% PROC boss only summons reinforcements. If a Matchman gets a turn, There's a 70% chance of catastrophic full party damage + {colour_start|stress}Stress{colour_end}]]></entry>
+    <entry id="town_quest_description_plot_kill_brigand_cannon_3"><![CDATA[RES: {colour_start|stun}245% Stun{colour_end} {colour_start|blight}245% Blight{colour_end} {colour_start|bleed}245% Bleed{colour_end} {colour_start|debuff}245% Debuff{colour_end} {colour_start|move}145% Move{colour_end} Ironwork. This 45% PROC boss only summons reinforcements. If a Matchman gets a turn, There's a 75% chance of catastrophic full party damage + {colour_start|stress}Stress{colour_end}]]></entry>
+    <entry id="town_quest_description_plot_kill_hag_1"><![CDATA[RES: {colour_start|stun}100% Stun{colour_end} {colour_start|blight}60% Blight{colour_end} {colour_start|bleed}20% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}200% Move{colour_end} Human. This 2 Turn boss can Kidnap a random hero, dealing damage to them every turn. Attacking the Cauldron free's them. Expect full party damage, {colour_start|stress}Stress{colour_end}, and a 10% ACC 25% DMG Debuff.]]></entry>
+    <entry id="town_quest_description_plot_kill_hag_2"><![CDATA[RES: {colour_start|stun}120% Stun{colour_end} {colour_start|blight}80% Blight{colour_end} {colour_start|bleed}40% Bleed{colour_end} {colour_start|debuff}60% Debuff{colour_end} {colour_start|move}220% Move{colour_end} Human. This 2 Turn boss can Kidnap a random hero, dealing damage to them every turn. Attacking the Cauldron free's them. Expect full party damage, {colour_start|stress}Stress{colour_end}, and a 10% ACC 25% DMG Debuff.]]></entry>
+    <entry id="town_quest_description_plot_kill_hag_3"><![CDATA[RES: {colour_start|stun}145% Stun{colour_end} {colour_start|blight}105% Blight{colour_end} {colour_start|bleed}65% Bleed{colour_end} {colour_start|debuff}85% Debuff{colour_end} {colour_start|move}245% Move{colour_end} Human. This 2 Turn boss can Kidnap a random hero, dealing damage to them every turn. Attacking the Cauldron free's them. Expect full party damage, {colour_start|stress}Stress{colour_end}, and a 10% ACC 25% DMG Debuff.]]></entry>
+	<!-- Ruin Bosses -->
+	<entry id="town_quest_description_plot_kill_necromancer_1"><![CDATA[RES: {colour_start|stun}75% Stun{colour_end} {colour_start|blight}20% Blight{colour_end} {colour_start|bleed}20% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}25% Move{colour_end} Unholy Eldritch. This 8 speed boss summons a Unholy type enemy every turn, and always moves back a rank. Has a full party {colour_start|stress}Stress{colour_end} attack as well.]]></entry>
+    <entry id="town_quest_description_plot_kill_necromancer_2"><![CDATA[RES: {colour_start|stun}95% Stun{colour_end} {colour_start|blight}40% Blight{colour_end} {colour_start|bleed}40% Bleed{colour_end} {colour_start|debuff}60% Debuff{colour_end} {colour_start|move}45% Move{colour_end} Unholy Eldritch. This 9 speed boss summons a Unholy type enemy every turn, and always moves back a rank. Has a full party {colour_start|stress}Stress{colour_end} attack as well.]]></entry>
+    <entry id="town_quest_description_plot_kill_necromancer_3"><![CDATA[RES: {colour_start|stun}120% Stun{colour_end} {colour_start|blight}65% Blight{colour_end} {colour_start|bleed}65% Bleed{colour_end} {colour_start|debuff}85% Debuff{colour_end} {colour_start|move}70% Move{colour_end} Unholy Eldritch. This 10 speed boss summons a Unholy type enemy every turn, and always moves back a rank. Has a full party {colour_start|stress}Stress{colour_end} attack as well.]]></entry>
+	<entry id="town_quest_description_kill_boss+2+crypts+kill_necromancer"><![CDATA[A Necromancer is performing unspeakable rituals in the shattered halls of your ancestral home. It must be stopped.]]></entry>
+    <entry id="town_quest_description_kill_boss+3+crypts+kill_necromancer"><![CDATA[Deep within the shattered vaults of your ancestral home, a Necromancer is performing unspeakable rituals… even raising the dead! It must be stopped.]]></entry>
+    <entry id="town_quest_description_plot_kill_prophet_1"><![CDATA[RES: {colour_start|stun}100% Stun{colour_end} {colour_start|blight}0% Blight{colour_end} {colour_start|bleed}0% Bleed{colour_end} {colour_start|debuff}20% Debuff{colour_end} {colour_start|move}300% Move{colour_end} Unholy. On round start Marks a rank. On Round end deals heavy damage to that rank. Has a {colour_start|stun}100% Stun{colour_end} on 1~2 Targets, and a {colour_start|blight}100% Blight{colour_end} on the full party.]]></entry>
+	<entry id="town_quest_description_plot_kill_prophet_2"><![CDATA[RES: {colour_start|stun}120% Stun{colour_end} {colour_start|blight}20% Blight{colour_end} {colour_start|bleed}20% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}320% Move{colour_end} Unholy. On round start Marks a rank. On Round end deals heavy damage to that rank. Has a {colour_start|stun}120% Stun{colour_end} on 1~2 Targets, and a {colour_start|blight}120% Blight{colour_end} on the full party."]]></entry>
+	<entry id="town_quest_description_plot_kill_prophet_3"><![CDATA[RES: {colour_start|stun}145% Stun{colour_end} {colour_start|blight}45% Blight{colour_end} {colour_start|bleed}45% Bleed{colour_end} {colour_start|debuff}65% Debuff{colour_end} {colour_start|move}345% Move{colour_end} Unholy. On round start Marks a rank. On Round end deals heavy damage to that rank. Has a {colour_start|stun}140% Stun{colour_end} on 1~2 Targets, and a {colour_start|blight}140% Blight{colour_end} on the full party."]]></entry>
+	<!-- this is a way to test text leagths without color codes: RES: {colour_start|stun}100% Stun{colour_end} {colour_start|blight}0% Blight{colour_end} {colour_start|bleed}0% Bleed{colour_end} {colour_start|debuff}20% Debuff{colour_end} {colour_start|move}300% Move{colour_end} Unholy. On round start: Marks a rank, On Round end: deals heavy damage to that rank. Has a 100% Stun on 1~2 Targets, and a 100% Blight on the full party. Bring Antitoxin and Holy Water.-->
+	<!-- Cove bosses -->
+	<entry id="town_quest_description_plot_kill_siren_1"><![CDATA[RES: {colour_start|stun}50% Stun{colour_end} {colour_start|blight}40% Blight{colour_end} {colour_start|bleed}60% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}25% Move{colour_end} Eldritch. This 2 turn, 12 Dodge boss can temporarily Charm 1 Random ally (But never whoever has the highest Debuff Resist). Expect full party {colour_start|bleed}100% Bleed{colour_end}, {colour_start|stress}Stress{colour_end} and Reinforcements.]]></entry>
+    <entry id="town_quest_description_plot_kill_siren_2"><![CDATA[RES: {colour_start|stun}75% Stun{colour_end} {colour_start|blight}60% Blight{colour_end} {colour_start|bleed}80% Bleed{colour_end} {colour_start|debuff}60% Debuff{colour_end} {colour_start|move}45% Move{colour_end} Eldritch. This 2 turn, 22 Dodge boss can temporarily Charm 1 Random ally (But never whoever has the highest Debuff Resist). Expect full party {colour_start|bleed}120% Bleed{colour_end}, {colour_start|stress}Stress{colour_end} and Reinforcements.]]></entry>
+    <entry id="town_quest_description_plot_kill_siren_3"><![CDATA[RES: {colour_start|stun}100% Stun{colour_end} {colour_start|blight}85% Blight{colour_end} {colour_start|bleed}105% Bleed{colour_end} {colour_start|debuff}85% Debuff{colour_end} {colour_start|move}70% Move{colour_end} Eldritch. This 2 turn, 35 Dodge boss can temporarily Charm 1 Random ally (But never whoever has the highest Debuff Resist). Expect full party {colour_start|bleed}140% Bleed{colour_end}, {colour_start|stress}Stress{colour_end} and Reinforcements.]]></entry>
+	<entry id="town_quest_description_plot_kill_drowned_crew_1"><![CDATA[RES: {colour_start|stun}50% Stun{colour_end} {colour_start|blight}20% Blight{colour_end} {colour_start|bleed}60% Bleed{colour_end} {colour_start|debuff}20% Debuff{colour_end} {colour_start|move}100% Move{colour_end} Unholy. This 2 turn boss, Summons allies that Immobilize your first rank, dealing constant {colour_start|stress}Stress{colour_end} to them. Expect single target {colour_start|stress}Stress{colour_end}, {colour_start|bleed}100% Bleed{colour_end}, and 100% Debuff (For 33% DMG).]]></entry>
+    <entry id="town_quest_description_plot_kill_drowned_crew_2"><![CDATA[RES: {colour_start|stun}70% Stun{colour_end} {colour_start|blight}40% Blight{colour_end} {colour_start|bleed}80% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}120% Move{colour_end} Unholy. This 2 turn boss, Summons allies that Immobilize your first rank, dealing constant {colour_start|stress}Stress{colour_end} to them. Expect single target {colour_start|stress}Stress{colour_end}, {colour_start|bleed}120% Bleed{colour_end}, and 100% Debuff (For 33% DMG).]]></entry>
+    <entry id="town_quest_description_plot_kill_drowned_crew_3"><![CDATA[RES: {colour_start|stun}95% Stun{colour_end} {colour_start|blight}65% Blight{colour_end} {colour_start|bleed}105% Bleed{colour_end} {colour_start|debuff}65% Debuff{colour_end} {colour_start|move}145% Move{colour_end} Unholy. This 2 turn boss, Summons allies that Immobilize your first rank, dealing constant {colour_start|stress}Stress{colour_end} to them. Expect single target {colour_start|stress}Stress{colour_end}, {colour_start|bleed}140% Bleed{colour_end}, and 100% Debuff (For 33% DMG).]]></entry>
+    <!-- Warren bosses -->
+	<entry id="town_quest_description_plot_kill_formless_flesh_1"><![CDATA[RES: {colour_start|stun}50% Stun{colour_end} {colour_start|blight}20% Blight{colour_end} {colour_start|bleed}40% Bleed{colour_end} {colour_start|debuff}20% Debuff{colour_end} {colour_start|move}200% Move{colour_end} Eldritch. This 50% PROT boss is 4 enemies that transform every turn, but share 1 HP bar. Expect single target {colour_start|bleed}100% Bleed{colour_end}, {colour_start|blight}100% Blight{colour_end}, and {colour_start|stun}100% Stun{colour_end}. DOT's work well.]]></entry>
+    <entry id="town_quest_description_plot_kill_formless_flesh_2"><![CDATA[RES: {colour_start|stun}70% Stun{colour_end} {colour_start|blight}40% Blight{colour_end} {colour_start|bleed}60% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}220% Move{colour_end} Eldritch. This 60% PROT boss is 4 enemies that transform every turn, but share 1 HP bar. Expect single target {colour_start|bleed}120% Bleed{colour_end}, {colour_start|blight}120% Blight{colour_end}, and {colour_start|stun}110% Stun{colour_end}. DOT's work well.]]></entry>
+    <entry id="town_quest_description_plot_kill_formless_flesh_3"><![CDATA[RES: {colour_start|stun}95% Stun{colour_end} {colour_start|blight}65% Blight{colour_end} {colour_start|bleed}85% Bleed{colour_end} {colour_start|debuff}65% Debuff{colour_end} {colour_start|move}245% Move{colour_end} Eldritch. This 70% PROT boss is 4 enemies that transform every turn, but share 1 HP bar. Expect single target {colour_start|bleed}140% Bleed{colour_end}, {colour_start|blight}140% Blight{colour_end}, and {colour_start|stun}120% Stun{colour_end}. DOT's work well.]]></entry>
+	<entry id="town_quest_description_plot_kill_swine_prince_1"><![CDATA[RES: {colour_start|stun}100% Stun{colour_end} {colour_start|blight}0% Blight{colour_end} {colour_start|bleed}0% Bleed{colour_end} {colour_start|debuff}20% Debuff{colour_end} {colour_start|move}100% Move{colour_end} Beast. Attacks randomly, or Rank 1+2, Dealing x2 damage to marked heros. Ally Wilbur marks your heros. Attacking Wilbur causes boss to apply a {colour_start|stun}100% Stun{colour_end} on your entire party.]]></entry>
+    <entry id="town_quest_description_plot_kill_swine_prince_2"><![CDATA[RES: {colour_start|stun}120% Stun{colour_end} {colour_start|blight}20% Blight{colour_end} {colour_start|bleed}20% Bleed{colour_end} {colour_start|debuff}40% Debuff{colour_end} {colour_start|move}120% Move{colour_end} Beast. Attacks randomly, or Rank 1+2, Dealing x2 damage to marked heros. Ally Wilbur marks your heros. Attacking Wilbur causes boss to apply a {colour_start|stun}100% Stun{colour_end} on your entire party.]]></entry>
+    <entry id="town_quest_description_plot_kill_swine_prince_3"><![CDATA[RES: {colour_start|stun}145% Stun{colour_end} {colour_start|blight}45% Blight{colour_end} {colour_start|bleed}45% Bleed{colour_end} {colour_start|debuff}65% Debuff{colour_end} {colour_start|move}1450% Move{colour_end} Beast. Attacks randomly, or Rank 1+2, Dealing x2 damage to marked heros. Ally Wilbur marks your heros. Attacking Wilbur causes boss to apply a {colour_start|stun}100% Stun{colour_end} on your entire party.]]></entry>
+	<!-- Here is Quest Text. 750ish is tips -->
+	<!-- this is a way to test text leagths without color codes: RES:100% Stun 0% Blight 0% Bleed 20% Debuff 300% Move Unholy. On round start: Marks a rank, On Round end: deals heavy damage to that rank. Has a 100% Stun on 1~2 Targets, and a 100% Blight on the full party. Bring Antitoxin and Holy Water.-->
+	<entry id="town_quest_description_cleanse+1+cove+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. A fish on two legs? Test the strength of this new menace.]]></entry>
+    <entry id="town_quest_description_cleanse+1+crypts+battle_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. Unholy abominations turning the Light against itself.]]></entry>
+    <entry id="town_quest_description_cleanse+1+warrens+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. An exploratory sortie into a mad realm of tunnels.]]></entry>
+    <entry id="town_quest_description_cleanse+1+weald+battle_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. Beat back these creatures that endanger traffic on the Old Road.]]></entry>
+    
+	<entry id="town_quest_description_cleanse+2+cove+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. Take the fight to the waters and show them our landward strength.]]></entry>
+    <entry id="town_quest_description_cleanse+2+crypts+battle_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. They can be killed. They can be beaten.]]></entry>
+    <entry id="town_quest_description_cleanse+2+warrens+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. They can be killed. They can be beaten. Starting now.]]></entry>
+    <entry id="town_quest_description_cleanse+2+weald+battle_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. Infection spreads unless checked. Put a tourniquet on the festering wood by destroying any creature you encounter.]]></entry>
+    <entry id="town_quest_description_cleanse+3+cove+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. This aquatic cult respects nothing but force. Leave a trail of scales and gills and let them dwell on that.]]></entry>
+    <entry id="town_quest_description_cleanse+3+crypts+battle_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. There are times for strategy, and times for brute force. Send the undead back to the hells from which they were summoned. All of them.]]></entry>
+    <entry id="town_quest_description_cleanse+3+warrens+battle_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. The swinefolk are growing in strength and numbers. Cut them like diseased wheat.]]></entry>
+    <entry id="town_quest_description_cleanse+3+weald+battle_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. Endless winding paths all arive at the same place: the enemy. Bring war to the Weald.]]></entry>
+    <entry id="town_quest_description_explore+1+cove+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. Scout the unwholesome rocky formations beneath the Manor for signs of life.]]></entry>
+    <entry id="town_quest_description_explore+1+crypts+explore_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight, . Ineffective: Bleed. Danger: Stress. Test yourself in the mad realm of your fallen ancestor, but don't delve too far.]]></entry>
+    <entry id="town_quest_description_explore+1+warrens+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. The beast-men spill forth from a thousand gaping holes. Pick one and search its extents.]]></entry>
+    <entry id="town_quest_description_explore+1+weald+explore_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. Take the Old Road into the wood and then pick any of the dozens of dark paths.]]></entry>
+    <entry id="town_quest_description_explore+2+cove+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. Plunge into forgotten grottos and assess the cancerous extent of the fishfolk's domain.]]></entry>
+    <entry id="town_quest_description_explore+2+crypts+explore_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. Unholy machinations have crushed together hallway and vault. Explore your ancestral home as far as you are able.]]></entry>
+    <entry id="town_quest_description_explore+2+warrens+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. Explore the Warrens. With a better understanding of where the creatures are coming from, future raids can target their sources of power.]]></entry>
+    <entry id="town_quest_description_explore+2+weald+explore_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. The Old Road is obscured by the corrupted, poisoned overgrowth. Explore it.]]></entry>
+    <entry id="town_quest_description_explore+3+cove+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. Follow every cavern and grotto to its conclusion and discover from whence the malign currents flow.]]></entry>
+    <entry id="town_quest_description_explore+3+crypts+explore_all_rooms"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. Is an apocalypse building? Cinch your packs and delve far, far into the tunnels of your fallen family. Make a map of your expedition.]]></entry>
+    <entry id="town_quest_description_explore+3+warrens+explore_all_rooms"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. Gain entry to the network of tunnels and take them to every possible extent you can manage. Return with a complete map.]]></entry>
+    <entry id="town_quest_description_explore+3+weald+explore_all_rooms"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. The Weald was nearly inscrutable even before the corruption. Provision well and mount an expedition.]]></entry>
+    <entry id="town_quest_description_gather+2+cove+gather_shipments"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. Your Ancestor was receiving eldritch relics via marine shipments. Find and return them to town safely out of the hands of greater evils.]]></entry>
+    <entry id="town_quest_description_gather+2+crypts+gather_holy_relic"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. When the Estate was overrun, so too were many treasures and symbols of the Light. The Abbot will pay dearly for such relics.]]></entry>
+    <entry id="town_quest_description_gather+2+warrens+gather_grain"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. The swine's appetite for comestibles exceeds even their thirst for blood. Winter is always close, and the Hamlet would do well to restock its sparse larder.]]></entry>
+    <entry id="town_quest_description_gather+2+weald+gather_medicines"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. A king's ransom of medicines was recently abandoned. They would greatly assist in rebuilding this sickly hamlet.]]></entry>
+    <entry id="town_quest_description_inventory_activate+2+cove+inventory_activate_wards"><![CDATA[Extra: Bandages, Herbs, Shovels. Type: Eldritch. Effective: Blight, PROT Debuffs, Stun resist, PROT. Ineffective: Bleed. Danger: Debuff. The power of the fishfolk grows with every moon! Light the ancient wards, and drain some of the natural power that they draw upon.]]></entry>
+    <entry id="town_quest_description_inventory_activate+2+crypts+inventory_activate_corrupted_altar"><![CDATA[Extra: Food, Herbs, Holy water, Keys. Type: Unholy. Effective: Blight. Ineffective: Bleed. Danger: Stress. The unholy abominations inhabiting the crumbling house have turned beacons of Light into vessels for diabolical worship. Cleanse these altars with Consecrated Essence.]]></entry>
+    <entry id="town_quest_description_inventory_activate+2+warrens+inventory_activate_animalistic_shrine"><![CDATA[Extra: Bandages, Herbs. Type:Beast. Effective: Bleed, Scouting. Ineffective: Blight. Danger: Disease, Bleed, Stress. The beast-men have erected crude shrines to their pagan Gods. Knock them down with pick-axe and impede their worship!]]></entry>
+    <entry id="town_quest_description_inventory_activate+2+weald+inventory_activate_infected_corpse"><![CDATA[Extra: Antivenom, Bandages, Herbs, Holy water, Shovels. Type: Eldritch/Human. Effective: Bleed, Debuff, Move. Ineffective: Blight. Danger: Bleed. Blighted corpses lay strewn about the Old Road, teeming with filth and disease. Destroy this blight with Potent Salve.]]></entry>
+    <entry id="town_quest_description_plot_crow_trinket"><![CDATA[Stunned by the apparent value of the thing concealed amidst its putrid feathers, onlookers wondered if a trek to its perch might not be in order...]]></entry>
+    <entry id="town_quest_description_plot_darkest_dungeon_1"><![CDATA[The creature's power waxes terrible. Recover the protective relics from the long-abandoned base camp, but beware the Shuffling Horror.]]></entry>
+    <entry id="town_quest_description_plot_darkest_dungeon_2"><![CDATA[The creature's gestation must be interrupted! Overwhelm the defending force and illuminate the beacons - force the Thing to reveal itself prematurely!]]></entry>
+    <entry id="town_quest_description_plot_darkest_dungeon_3"><![CDATA[Your enemy is vast, sprawling, and must be destroyed from within. Slog through the twisting maze and find your way to its throbbing heart.]]></entry>
+    <entry id="town_quest_description_plot_darkest_dungeon_4"><![CDATA[At last, the twisted heart of the world is laid bare – for sword, or supplication.]]></entry>
+    <entry id="town_quest_description_plot_town_invasion_0"><![CDATA[To arms! A Brigand raiding party is descending upon the Hamlet with explosive fury, and murderous intent!]]></entry>
+    <entry id="town_quest_description_plot_trinket_retention_0"><![CDATA[It scours the land, picking up the trinkets left by dead heroes and hoarding them in its rotting nest.]]></entry>
+    <entry id="town_quest_description_plot_trinket_retention_1"><![CDATA[It scours the land, picking up the trinkets left by dead heroes and hoarding them in its rotting nest.]]></entry>
+    <entry id="town_quest_description_plot_trinket_retention_2"><![CDATA[It scours the land, picking up the trinkets left by dead heroes and hoarding them in its rotting nest.]]></entry>
+    <entry id="town_quest_description_plot_tutorial_crypts"><![CDATA[Test yourself in the mad realm of your fallen ancestor. Take note of how the creatures have taken over, but don't delve too far.]]></entry>
+	
+	<!-- Stress Afflictions -->
+	<entry id="str_affliction_name_paranoid"><![CDATA[Paranoid
+	May move, refuse help in battle/camp,
+	dmg ally, use skills.]]></entry>
+	<entry id="str_affliction_name_abusive"><![CDATA[Abusive
+	Refuse move or camp 
+	skills, dmg ally.]]></entry>
+    <entry id="str_affliction_name_depressed"><![CDATA[Hopeless
+	May move, refuse help, pass turn,
+	dmg/mark self, use skills.]]></entry>
+    <entry id="str_affliction_name_fearful"><![CDATA[Fearful
+	May move back, pass turn, refuse 
+	move/camp skill, interact w/ 
+	Worship curios.]]></entry>
+    <entry id="str_affliction_name_irrational"><![CDATA[Irrational
+	May move, refuse help in 
+	battle/camp, interact w/
+	curios, dmg self/ally, mark self,
+	use skills.]]></entry>
+    <entry id="str_affliction_name_masochistic"><![CDATA[Masochistic
+	May move fwd, dmg/mark self,
+	refuse help in battle/camp, 
+	interact w/ Torture curios.]]></entry>
+    <entry id="str_affliction_name_nothing"><![CDATA[None]]></entry>
+    <entry id="str_affliction_name_selfish"><![CDATA[Selfish
+	Move back, pass turn, use skills,
+	refuse camp skill, steal from
+	Treasure curios.]]></entry>
+	
+	<!-- Item Clarity -->
+	<entry id="str_inventory_description_supplyantivenom"><![CDATA[Use to cure {colour_start|blight}Blight{colour_end}. 
+	Curio interactions:
+	Ruins: 0
+	Warrens: 0
+	Weald: 2
+	Cove: 1
+	Courtyard: 1]]></entry>
+	<entry id="str_inventory_description_supplybandage"><![CDATA[Use to stanch the flow of {colour_start|bleed}Bleeding{colour_end}.
+	Curio Interactions:
+	Ruins: 0
+	Warrens: 0
+	Weald: 2
+	Cove: 0
+	Courtyard: 1]]></entry>
+    <entry id="str_inventory_description_supplydog_treats"><![CDATA[Gives the Houndmaster a {colour_start|move}+50%DMG +15ACC Buff{colour_end} for 3 rounds. 
+	Curio interactions: 
+	Cove: 1]]></entry>
+    <entry id="str_inventory_description_supplyfirewood"><![CDATA[Use to camp. Make sure to have enough food for the meal phase or heroes will starve!]]></entry>
+    <entry id="str_inventory_description_supplyholy_water"><![CDATA[{colour_start|move}+33% Bleed, Blight, Disease, and Debuff resistance Buff{colour_end} for 3 turns.
+	Curio Interactions:
+	Ruins: 4
+	Warrens: 2
+	Weald: 2
+	Cove: 1
+	Courtyard: 2]]></entry>
+    <entry id="str_inventory_description_supplylaudanum"><![CDATA[A soothing tincture to inure one's mind against {colour_start|stress}Horror{colour_end}. More useful in the Later game, and the Courtyard.]]></entry>
+    <entry id="str_inventory_description_supplymedicinal_herbs"><![CDATA[Use to cure {colour_start|debuff}Debuffs{colour_end}. 
+	Curio Interactions: 
+	Ruins: 2
+	Warrens: 3
+	Weald: 1
+	Cove: 2
+	Courtyard: 1]]></entry>
+    <entry id="str_inventory_description_supplyrope"><![CDATA[Use to cross hazards and secure items.]]></entry>
+    <entry id="str_inventory_description_supplyshovel"><![CDATA[Use to clear obstacles. 
+	Curio Interactions: 
+	Ruins: 2
+	Warrens: 0
+	Weald: 1
+	Cove: 2
+	Courtyard: 2]]></entry>
+    <entry id="str_inventory_description_supplyskeleton_key"><![CDATA[Use to unlock strongboxes. 
+	Curio Interactions: 
+	All: 2
+	Ruins: 2
+	Warrens: 0
+	Weald: 1
+	Cove: 0
+	Courtyard: 0
+	Farmstead: 1]]></entry>
+    <entry id="str_inventory_description_supplytorch"><![CDATA[Increases the light level.
+	Curio Interactions:
+	Ruins: 1
+	Warrens: 1
+	Weald: 0
+	Cove: 0
+	Courtyard: 2
+	]]></entry>
+	
+	
+	<entry id="str_cove_tip"><![CDATA[Thralls will explode on round 2 of combat. Try to stun or kill them on round 2!!]]></entry>
+	
+	<!-- Torch -->
+	<entry id="str_torch_info_0"><![CDATA[RADIANT LIGHT
+ No effects.]]></entry>
+    <entry id="str_torch_info_1"><![CDATA[BRIGHT LIGHT
+ Mildly increased Stress Damage, Monster Attack, Loot, Player Crit]]></entry>
+    <entry id="str_torch_info_2"><![CDATA[DIM LIGHT
+ Increased Stress Damage, Monster Attack, Loot, Player Crit]]></entry>
+    <entry id="str_torch_info_3"><![CDATA[SHADOWY
+ Strongly increased Stress Damage, Monster Attack, Loot, Player Crit, Carrots]]></entry>
+    <entry id="str_torch_info_4"><![CDATA[DARKNESS
+ Greatly increased Stress Damage, Monster Attack, Loot, Player Crit, Potatoes]]></entry>
+ 
+ 
+	<!-- Battle Help H key at 1086 {colour_start|color}{colour_end}  -->
+	<entry id="[pc]str_help_raid_combat_0"><![CDATA[On hero's turn, {colour_start|town_activity_log_positive_result}[CLICK]{colour_end} a valid combat skill and then {colour_start|town_activity_log_positive_result}[CLICK]{colour_end} a target to act. You can also use {colour_start|town_activity_log_positive_result}[# keys]{colour_end} 1-5 to quickly select a skill.]]></entry>
+    <entry id="[pc]str_help_raid_combat_1"><![CDATA[Each skill has different requirements for where the hero needs to be standing and what enemies they can target. {colour_start|town_activity_log_positive_result}[MOUSE OVER]{colour_end} the skill to se the requirements.]]></entry>
+    <entry id="[pc]str_help_raid_combat_2"><![CDATA[{colour_start|town_activity_log_positive_result}[MOUSE OVER]{colour_end} enemies to see stats and chances to hit/damage/crit with currently selected skill.]]></entry>
+    <entry id="[pc]str_help_raid_combat_3"><![CDATA[{colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} on Anti-Venom or Bandages in inventory to heal BLIGHT or BLEED on the current hero.]]></entry>
+    <entry id="[pc]str_help_raid_combat_4"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on Retreat Flag to attempt to retreat from the combat.]]></entry>
+    <entry id="[pc]str_help_raid_combat_5"><![CDATA[{colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} on a hero to see their detailed character sheet.]]></entry> 
+	<entry id="[pc]str_help_raid_combat_6"><![CDATA[{colour_start|town_activity_log_positive_result}[Clarity Mod:]{colour_end} Mouse over an enemy to see detailed attack information. The follow is a color coated legend.
+	{colour_start|Cdamage}Attack Deals Damage{colour_end} 
+	{colour_start|Cnodamage}Attack does not Deal Damage{colour_end}
+	{colour_start|CBuff}Buffs Target{colour_end}
+	{colour_start|Cheal}Heals Target{colour_end}
+	{colour_start|Ccharm}Charms Target{colour_end}
+	
+	{colour_start|Cpositions}Ranks a Enemy can use this attack from.{colour_end} 
+	{colour_start|Ctargets}Ranks the Enemy attack targets.{colour_end}]]></entry> 
+	
+	
+	
+	
+	<entry id="[pc]str_help_raid_hallway_0"><![CDATA[Press {colour_start|town_activity_log_positive_result}[D]{colour_end} to walk forward, {colour_start|town_activity_log_positive_result}[A]{colour_end} to walk backward. When in front of a door, {colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on it or press {colour_start|town_activity_log_positive_result}[W]{colour_end}.]]></entry>
+    <entry id="[pc]str_help_raid_hallway_1"><![CDATA[Use {colour_start|town_activity_log_positive_result}[MOUSEWHEEL]{colour_end} to zoom map and {colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} and {colour_start|town_activity_log_positive_result}[DRAG]{colour_end} to pan map.]]></entry>
+    <entry id="[pc]str_help_raid_hallway_2"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on objects or press {colour_start|town_activity_log_positive_result}[W]{colour_end} to interact with them. The selected hero will perform the interaction.]]></entry>
+    <entry id="[pc]str_help_raid_hallway_3"><![CDATA[{colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} a hero or press {colour_start|town_activity_log_positive_result}[C]{colour_end} to see their detailed character sheet.]]></entry>
+    <entry id="[pc]str_help_raid_hallway_4"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on the retreat flag to abandon the quest.]]></entry>
+    <entry id="[pc]str_help_raid_hallway_5"><![CDATA[When you would recieve a Gem, Shown below is your percent chance (out of 100) for each gem.]]></entry>
+    
+	<entry id="[pc]str_help_raid_hallway_6"><![CDATA[Difficulty: {colour_start|Capprentice}Apprentice{colour_end}  {colour_start|Cveteran}Veteran{colour_end}  {colour_start|Cchampion}Champion{colour_end}  {colour_start|Cdarkest}Darkest{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_7"><![CDATA[{colour_start|Ccitrine}Citrine{colour_end}:            {colour_start|Capprentice}[{colour_end}{colour_start|Ccitrine}33{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Ccitrine}19{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Ccitrine}13{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Ccitrine}10{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_8"><![CDATA[{colour_start|Cjade}Jade{colour_end}:                {colour_start|Capprentice}[{colour_end}{colour_start|Cjade}33{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Cjade}19{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Cjade}13{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Cjade}10{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_9"><![CDATA[{colour_start|Conyx}Onyx{colour_end}:               {colour_start|Capprentice}[{colour_end}{colour_start|Conyx}13{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Conyx}23{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Conyx}21{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Conyx}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_10"><![CDATA[{colour_start|Cemerald}Emerald{colour_end}:         {colour_start|Capprentice}[{colour_end}{colour_start|Cemerald}13{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Cemerald}23{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Cemerald}21{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Cemerald}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_11"><![CDATA[{colour_start|Csapphire}Sapphire{colour_end}:          {colour_start|Capprentice}[{colour_end}{colour_start|Csapphire}3{colour_end}{colour_start|Capprentice}]{colour_end}              {colour_start|Cveteran}[{colour_end}{colour_start|Csapphire}7{colour_end}{colour_start|Cveteran}]{colour_end}                 {colour_start|Cchampion}[{colour_end}{colour_start|Csapphire}15{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Csapphire}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_12"><![CDATA[{colour_start|Cruby}Ruby{colour_end}:                 {colour_start|Capprentice}[{colour_end}{colour_start|Cruby}3{colour_end}{colour_start|Capprentice}]{colour_end}               {colour_start|Cveteran}[{colour_end}{colour_start|Cruby}7{colour_end}{colour_start|Cveteran}]{colour_end}                 {colour_start|Cchampion}[{colour_end}{colour_start|Cruby}15{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cdarkest}[{colour_end}{colour_start|Cruby}19{colour_end}{colour_start|Cdarkest}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_hallway_13"><![CDATA[{colour_start|Ctapastry}Jute Tapastry{colour_end}: {colour_start|Capprentice}[{colour_end}{colour_start|Ctapastry}0{colour_end}{colour_start|Capprentice}]{colour_end}              {colour_start|Cveteran}[{colour_end}{colour_start|Ctapastry}2{colour_end}{colour_start|Cveteran}]{colour_end}                  {colour_start|Cchampion}[{colour_end}{colour_start|Ctapastry}2{colour_end}{colour_start|Cchampion}]{colour_end}            {colour_start|Cdarkest}[{colour_end}{colour_start|Ctapastry}4{colour_end}{colour_start|Cdarkest}]{colour_end}]]></entry>
+	
+	
+	<entry id="[pc]str_help_raid_room_0"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on a room in the map to begin moving to that room. {colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on a hero to select them.]]></entry>
+    <entry id="[pc]str_help_raid_room_1"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on a hero's move skill to change their party position.]]></entry>
+    <entry id="[pc]str_help_raid_room_2"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on firewood in inventory (if you have any) to start CAMPING and use camping skills.]]></entry>
+    <entry id="[pc]str_help_raid_room_3"><![CDATA[{colour_start|town_activity_log_positive_result}[MOUSE OVER]{colour_end} the torch meter to see current light level and gameplay effects.]]></entry>
+    <entry id="[pc]str_help_raid_room_4"><![CDATA[While interacting with an object: {colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} an inventory item to apply it to the object.]]></entry>
+    
+	<entry id="[pc]str_help_raid_room_5"><![CDATA[When you would recieve a Gem, Shown below is your percent chance (out of 100) for each gem.]]></entry>
+    
+	<entry id="[pc]str_help_raid_room_6"><![CDATA[Difficulty: {colour_start|Capprentice}Apprentice{colour_end}  {colour_start|Cveteran}Veteran{colour_end}  {colour_start|Cchampion}Champion{colour_end}  {colour_start|Cdarkest}Darkest{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_7"><![CDATA[{colour_start|Ccitrine}Citrine{colour_end}:            {colour_start|Capprentice}[{colour_end}{colour_start|Ccitrine}33{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Ccitrine}19{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Ccitrine}13{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Ccitrine}10{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_8"><![CDATA[{colour_start|Cjade}Jade{colour_end}:                {colour_start|Capprentice}[{colour_end}{colour_start|Cjade}33{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Cjade}19{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Cjade}13{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Cjade}10{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_9"><![CDATA[{colour_start|Conyx}Onyx{colour_end}:               {colour_start|Capprentice}[{colour_end}{colour_start|Conyx}13{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Conyx}23{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Conyx}21{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Conyx}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_10"><![CDATA[{colour_start|Cemerald}Emerald{colour_end}:         {colour_start|Capprentice}[{colour_end}{colour_start|Cemerald}13{colour_end}{colour_start|Capprentice}]{colour_end}             {colour_start|Cveteran}[{colour_end}{colour_start|Cemerald}23{colour_end}{colour_start|Cveteran}]{colour_end}                {colour_start|Cchampion}[{colour_end}{colour_start|Cemerald}21{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Cemerald}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_11"><![CDATA[{colour_start|Csapphire}Sapphire{colour_end}:          {colour_start|Capprentice}[{colour_end}{colour_start|Csapphire}3{colour_end}{colour_start|Capprentice}]{colour_end}              {colour_start|Cveteran}[{colour_end}{colour_start|Csapphire}7{colour_end}{colour_start|Cveteran}]{colour_end}                 {colour_start|Cchampion}[{colour_end}{colour_start|Csapphire}15{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cchampion}[{colour_end}{colour_start|Csapphire}19{colour_end}{colour_start|Cchampion}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_12"><![CDATA[{colour_start|Cruby}Ruby{colour_end}:                 {colour_start|Capprentice}[{colour_end}{colour_start|Cruby}3{colour_end}{colour_start|Capprentice}]{colour_end}               {colour_start|Cveteran}[{colour_end}{colour_start|Cruby}7{colour_end}{colour_start|Cveteran}]{colour_end}                 {colour_start|Cchampion}[{colour_end}{colour_start|Cruby}15{colour_end}{colour_start|Cchampion}]{colour_end}          {colour_start|Cdarkest}[{colour_end}{colour_start|Cruby}19{colour_end}{colour_start|Cdarkest}]{colour_end}]]></entry>
+	<entry id="[pc]str_help_raid_room_13"><![CDATA[{colour_start|Ctapastry}Jute Tapastry{colour_end}: {colour_start|Capprentice}[{colour_end}{colour_start|Ctapastry}0{colour_end}{colour_start|Capprentice}]{colour_end}              {colour_start|Cveteran}[{colour_end}{colour_start|Ctapastry}2{colour_end}{colour_start|Cveteran}]{colour_end}                  {colour_start|Cchampion}[{colour_end}{colour_start|Ctapastry}2{colour_end}{colour_start|Cchampion}]{colour_end}            {colour_start|Cdarkest}[{colour_end}{colour_start|Ctapastry}4{colour_end}{colour_start|Cdarkest}]{colour_end}]]></entry>
+	
+    
+	
+ 
+	<entry id="[pc]str_help_town_0"><![CDATA[{colour_start|town_activity_log_positive_result}[RIGHT-CLICK]{colour_end} on a hero in the roster to inspect their detailed character sheet. They can be renamed or dismissed permanently from there.]]></entry>
+    <entry id="[pc]str_help_town_1"><![CDATA[{colour_start|town_activity_log_positive_result}[CLICK]{colour_end} on buildings to use them to interact with your heroes.]]></entry>
+    <entry id="[pc]str_help_town_2"><![CDATA[STAGECOACH: recruit new heroes]]></entry>
+    <entry id="[pc]str_help_town_3"><![CDATA[BLACKSMITH: upgrade heroes' weapons and armor]]></entry>
+    <entry id="[pc]str_help_town_4"><![CDATA[GUILD: upgrade heroes' combat skills]]></entry>
+    <entry id="[pc]str_help_town_5"><![CDATA[SURVIVALIST: upgrade heroes' Camping skills]]></entry>
+    <entry id="[pc]str_help_town_6"><![CDATA[TAVERN: send heroes for {colour_start|stressNOT1}stress{colour_end} relief]]></entry>
+    <entry id="[pc]str_help_town_7"><![CDATA[ABBEY: send heroes for {colour_start|stressNOT1}stress{colour_end} relief]]></entry>
+    <entry id="[pc]str_help_town_8"><![CDATA[SANITARIUM: treat heroes' quirks and diseases]]></entry>
+    <entry id="[pc]str_help_town_9"><![CDATA[NOMAD'S WAGON: purchase rare items]]></entry>
+    
+ 
+ 
+	<entry id="str_inventory_description_gemantiqrelic"><![CDATA[A valuable find! 
+	{colour_start|town_activity_log_positive_result}[Max stack: 6250]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gemantiqrelicsmall"><![CDATA[A minor collectible, worth money in bunches.
+	{colour_start|town_activity_log_positive_result}[Max stack: 10000]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gemcitrine"><![CDATA[Yellow like fading hope. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 1250]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gememerald"><![CDATA[Green like molten envy. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 3750]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gemjade"><![CDATA[Dull green like rotting flesh. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 1875]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gemonyx"><![CDATA[Black like endless night. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 2500]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gempewrelic"><![CDATA[The shard of a wooden bench said to once hold followers of the Prophet!]]></entry>
+    <entry id="str_inventory_description_gemruby"><![CDATA[Red like blazing lust. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 6250]{colour_end} ]]></entry>
+    <entry id="str_inventory_description_gemsapphire"><![CDATA[Blue like strangled dreams. 
+	{colour_start|town_activity_log_positive_result}[Max stack: 5000]{colour_end} ]]></entry>
+ 
+ 
+ 
+ 
+	<entry id="str_monstername_maggot_A"><![CDATA[Maggot (No Corpse) ]]></entry>
+    <entry id="str_monstername_maggot_B"><![CDATA[Twitching Maggot (No Corpse) ]]></entry>
+    <entry id="str_monstername_maggot_C"><![CDATA[Bulbous Maggot (No Corpse) ]]></entry>
+	
+	<entry id="str_monstername_rabid_dog_A"><![CDATA[Rabid Gnasher (No Corpse) ]]></entry>
+    <entry id="str_monstername_rabid_dog_B"><![CDATA[Crazed Gnasher (No Corpse) ]]></entry>
+    <entry id="str_monstername_rabid_dog_C"><![CDATA[Harrying Gnasher (No Corpse) ]]></entry>
+	<entry id="str_monstername_spider_spitter_A"><![CDATA[Spitter (No Corpse) ]]></entry>
+    <entry id="str_monstername_spider_spitter_B"><![CDATA[Overgrown Spitter (No Corpse) ]]></entry>
+    <entry id="str_monstername_spider_spitter_C"><![CDATA[Ancient Spitter (No Corpse) ]]></entry>
+    <entry id="str_monstername_spider_webber_A"><![CDATA[Webber (No Corpse) ]]></entry>
+    <entry id="str_monstername_spider_webber_B"><![CDATA[Overgrown Webber (No Corpse) ]]></entry>
+    <entry id="str_monstername_spider_webber_C"><![CDATA[Ancient Webber (No Corpse) ]]></entry>
+
+	<!-- Enemy skills test? -->
+	<!-- Enemy skills test? {colour_start|guard} for all guard/buff skills -->
+	<!-- Enemy attack name length in bounds. 123456789 123456789 12>
+	<!-- Enemy attack name length in bounds. Rain of Whips Test test tes>
+	<!-- Enemy skills test?  for all guard/buff skills 
+	{colour_start|Cdamage}{colour_end}
+	{colour_start|Cpositions}{colour_end}
+	{colour_start|Ctargets}{colour_end}
+	{colour_start|Cdamage}{colour_end} {colour_start|Cpositions}{colour_end} {colour_start|Ctargets}{colour_end}
+	-->
+	<!-- Enemies in ALL locations -->
+	<!-- Brigand Cultist_Brawler -->
+	<entry id="str_monster_skill_brawler_claw"><![CDATA[{colour_start|Cdamage}Old Gods Rending{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_brawler_claw_weak"><![CDATA[{colour_start|Cdamage}Stumbling Scratch{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Brigand Cultist_Acolyte -->
+	<entry id="str_monster_skill_cultist_incantation"><![CDATA[{colour_start|Cdamage}Stressful Incantation{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_cultist_pull"><![CDATA[{colour_start|Cdamage}Eldritch Pull{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	<entry id="str_monster_skill_cultist_push"><![CDATA[{colour_start|Cdamage}Eldritch Push{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Brigand Cutthroat --> <!-- Brigand Raider -->
+	<entry id="str_monster_skill_double_slice"><![CDATA[{colour_start|Cdamage}Slice and Dice{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_uppercut_slice"><![CDATA[{colour_start|Cdamage}Uppercut Slice{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<entry id="str_monster_skill_bandit_stabby"><![CDATA[{colour_start|Cdamage}Shank{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_bandit_stabby_weak"><![CDATA[{colour_start|Cdamage}Harmless Poke{colour_end} {colour_start|Cpositions}4{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Brigand Bloodletter -->
+	<entry id="str_monster_skill_whip_party"><![CDATA[{colour_start|Cdamage}Rain of Whips{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_whip_single"><![CDATA[{colour_start|Cdamage}Punishment{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_point_blank_shot"><![CDATA[{colour_start|Cdamage}Point Blank Shot{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}1{colour_end}]]></entry>
+	<!-- Brigand Fusilier --> <!-- Brigand Hunter -->
+	<entry id="str_monster_skill_blunderbuss_shot"><![CDATA[{colour_start|Cdamage}Blanket Fire{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_rushed_shot"><![CDATA[{colour_start|Cdamage}Rushed Shot{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<!-- Madman -->
+	<entry id="str_monster_skill_doomsay"><![CDATA[{colour_start|Cnodamage}Doomsay{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_accusation"><![CDATA[{colour_start|Cdamage}Accusation{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Maggot -->
+	<entry id="str_monster_skill_grave_nibble"><![CDATA[{colour_start|Cdamage}Grave Nibble{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Webber note that "spider" and "spitter" are diffrent in code, so their same attack names, are diffrent attacks-->
+	<entry id="str_monster_skill_spider_web"><![CDATA[{colour_start|Cdamage}Web{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_spider_bite"><![CDATA[{colour_start|Cdamage}Bite{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Spitter -->
+	<entry id="str_monster_skill_spitter_bite"><![CDATA[{colour_start|Cdamage}Bite{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_spider_spit"><![CDATA[{colour_start|Cdamage}Spit{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Bone Rabble -->
+	<entry id="str_monster_skill_cudgel"><![CDATA[{colour_start|Cdamage}Bump in the Night{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1~2 {colour_end} ]]></entry>
+    <entry id="str_monster_skill_cudgel_weak"><![CDATA[{colour_start|Cdamage}Tic-Toc{colour_end} {colour_start|Cpositions}4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Ghoul -->
+	<entry id="str_monster_skill_rend"><![CDATA[{colour_start|Cdamage}Rend{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_skull_toss"><![CDATA[{colour_start|Cdamage}Skull Toss{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	<entry id="str_monster_skill_howl"><![CDATA[{colour_start|Cnodamage}Howl{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Gargoyle -->
+	<entry id="str_monster_skill_claw_flurry"><![CDATA[{colour_start|Cdamage}Flurry of Claws{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_tail_whip"><![CDATA[{colour_start|Cdamage}Lash of the Tail{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Shambler -->
+	<entry id="str_monster_skill_shamble_fwd"><![CDATA[{colour_start|Cdamage}Obdurous Advancement{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All + Summon2{colour_end}]]></entry>
+	<entry id="str_monster_skill_shamble_back"><![CDATA[{colour_start|Cdamage}Undulating Withdrawal{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All + Summon2{colour_end}]]></entry>
+	<entry id="str_monster_skill_shambler_howl"><![CDATA[{colour_start|Cdamage}Stentorious Lament{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Shambler Tentacle -->
+	<entry id="str_monster_skill_tentacle_slap"><![CDATA[{colour_start|Cdamage}Clapperclaw{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- The Collector -->
+	<entry id="str_monster_skill_collect_call"><![CDATA[{colour_start|Cdamage}Collect Call{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Summon 3{colour_end}]]></entry>
+    <entry id="str_monster_skill_collect_call_battle"><![CDATA[{colour_start|Cdamage}Collect Call{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Summon 3{colour_end}]]></entry>
+	<entry id="str_monster_skill_show_collection"><![CDATA[{colour_start|Cdamage}Show Collection{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_life_steal"><![CDATA[{colour_start|Cdamage}Life Steal{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	<!-- Collected Highwayman -->
+	<entry id="str_monster_skill_head_chomp"><![CDATA[{colour_start|Cdamage}Headhunt{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+    <!-- Collected Man-at-Arms -->
+	<entry id="str_monster_skill_head_guard"><![CDATA[{colour_start|Cnodamage}Head Games{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Cnodamage}Any{colour_end}]]></entry>
+	<!-- Collected_Vestal -->
+	<entry id="str_monster_skill_head_heal"><![CDATA[{colour_start|Cheal}Headstrong{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Cheal}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_head_buff"><![CDATA[{colour_start|CBuff}Headache{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|CBuff}Any{colour_end}]]></entry>
+	
+	
+	<!------------------------------------>
+	<!---- Here starts RUINS enemies ---->
+	<!------------------------------------>
+	<!-- Bone Soldier -->
+	<entry id="str_monster_skill_sword_strike"><![CDATA[{colour_start|Cdamage}Graveyard Slash{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+    <entry id="str_monster_skill_sword_strike_weak"><![CDATA[{colour_start|Cdamage}Graveyard Stumble{colour_end} {colour_start|Cpositions}4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Bone Courtier -->
+	<entry id="str_monster_skill_tempting_goblet"><![CDATA[{colour_start|Cdamage}Tempting Goblet{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_dagger_jab"><![CDATA[{colour_start|Cdamage}Knife in the Dark{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Bone Arbalist -->
+	<entry id="str_monster_skill_crossbow_shot"><![CDATA[{colour_start|Cdamage}Quarrel{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}2~4{colour_end}]]></entry>
+	<entry id="str_monster_skill_bayonet_jab"><![CDATA[{colour_start|Cdamage}Bayonet Jab{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Bone Defender -->
+	<entry id="str_monster_skill_axe_strike"><![CDATA[{colour_start|Cdamage}Axeblade{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_shield_bash"><![CDATA[{colour_start|Cdamage}Dead Weight{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+    <entry id="str_monster_skill_axe_strike_weak"><![CDATA[{colour_start|Cdamage}Clumsy Axeblade{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Bone Spearman -->
+	<entry id="str_monster_skill_spear_thrust"><![CDATA[{colour_start|Cdamage}Spear Thrust{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_impale"><![CDATA[{colour_start|Cdamage}Impale{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Bone Captain -->
+	<entry id="str_monster_skill_crushing_blow"><![CDATA[{colour_start|Cdamage}Crushing Blow{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_ground_pound"><![CDATA[{colour_start|Cdamage}Ground Pound{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Bone Bearer -->
+	<entry id="str_monster_skill_wicked_surge"><![CDATA[{colour_start|CBuff}Wicked Surge{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|CBuff}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_into_the_ranks"><![CDATA[{colour_start|Cdamage}Defend the Icon{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_unholy_rally"><![CDATA[{colour_start|CBuff}Unholy Rally{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|CBuff}Any{colour_end}]]></entry>
+	<!-- Necromancer -->
+	<entry id="str_monster_skill_unholy_smite"><![CDATA[{colour_start|Cdamage}The Flesh is Willing{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_unholy_judgement"><![CDATA[{colour_start|Cdamage}The Clawing Dead{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}3+4{colour_end}]]></entry>
+	<entry id="str_monster_skill_unholy_curse"><![CDATA[{colour_start|Cnodamage}Six Feet Under{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Prophet first attack might be wrong?-->
+	<entry id="str_monster_skill_prophet_mark"><![CDATA[{colour_start|Cnodamage}Prognostication{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_prophet_attack"><![CDATA[{colour_start|Cdamage}Rubble of Ruin{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_eye_on_you"><![CDATA[{colour_start|Cdamage}Eye on You{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_fulminate"><![CDATA[{colour_start|Cdamage}Fulminate{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!------------------------------------>
+	<!---- Here starts WARREN enemies ---->
+	<!------------------------------------>
+	<!-- Swine Chopper -->
+	<entry id="str_monster_skill_butcher_cut"><![CDATA[{colour_start|Cdamage}Butcher Cut{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<entry id="str_monster_skill_ball_and_chain"><![CDATA[{colour_start|Cdamage}Ball and Chain{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	<!-- Swine Slasher -->
+	<entry id="str_monster_skill_hook_where_it_hurts"><![CDATA[{colour_start|Cdamage}Hook Where it Hurts{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<!-- Swine Wretch -->
+	<entry id="str_monster_skill_vomit"><![CDATA[{colour_start|Cdamage}Vomit{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Swine Drummer -->
+	<entry id="str_monster_skill_drum_debuff"><![CDATA[{colour_start|Cdamage}Drums of Debilitation{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+    <entry id="str_monster_skill_drum_fear"><![CDATA[{colour_start|Cdamage}Drums of Doom{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Carrion Eater This skill is in the database twice. might be a bug?-->
+	<entry id="str_monster_skill_munch"><![CDATA[{colour_start|Cdamage}Munch{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_munch"><![CDATA[{colour_start|Cdamage}Munch{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Large Carrion Eater -->
+	<entry id="str_monster_skill_weaken_prey"><![CDATA[{colour_start|Cdamage}Weaken Prey{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_tentacle_devour"><![CDATA[{colour_start|Cdamage}Tentacle Devour{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Swinetaur -->
+	<entry id="str_monster_skill_pig_spear"><![CDATA[{colour_start|Cdamage}Pig Spear{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_bull_rush"><![CDATA[{colour_start|Cdamage}Boar Rush{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_trot_retreat"><![CDATA[{colour_start|Cnodamage}Trot Retreat{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_backhand"><![CDATA[{colour_start|Cdamage}Crunching Backhand{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}1~3 (50% +1){colour_end}]]></entry>
+	<!-- Swine Skiver -->
+	<entry id="str_monster_skill_spit_to_roast"><![CDATA[{colour_start|Cdamage}Spit To Roast{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<entry id="str_monster_skill_goring_flight"><![CDATA[{colour_start|Cdamage}Goring Flight{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_cripple_them"><![CDATA[{colour_start|Cdamage}Cripple Them{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}2+3+4{colour_end}]]></entry>
+	<!-- Swine Prince -->
+	<entry id="str_monster_skill_obliterate_marked_one"><![CDATA[{colour_start|Cdamage}Obliterate Body{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+    <entry id="str_monster_skill_obliterate_marked_two"><![CDATA[{colour_start|Cdamage}Obliterate Masses{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_obliterate_enraged"><![CDATA[{colour_start|Cdamage}Enraged Destruction{colour_end} {colour_start|Cpositions}Source:{colour_end} {colour_start|Ctargets}Wilbur{colour_end}]]></entry>
+	<entry id="str_monster_skill_obliterate_blind"><![CDATA[{colour_start|Cdamage}Wild Flailing{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Wilbur -->
+	<entry id="str_monster_skill_squeal_single"><![CDATA[{colour_start|Cdamage}Bit o' Squeal{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_wilbur_mark_1"><![CDATA[{colour_start|Cdamage}End This One{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+    <entry id="str_monster_skill_wilbur_mark_2"><![CDATA[{colour_start|Cdamage}End These Two{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_squeal"><![CDATA[{colour_start|Cdamage}Squeal{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Flesh -->
+	<entry id="str_monster_skill_formless_melee_attack"><![CDATA[{colour_start|Cdamage}Maws of Life{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_formless_guard_attack"><![CDATA[{colour_start|Cdamage}Bone Zephyr{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_formless_weak_heal"><![CDATA[{colour_start|Cheal}Sanguine Stroke{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Cheal}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_formless_ranged_attack"><![CDATA[{colour_start|Cdamage}Undulating Invasion{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	
+	<!------------------------------------>
+	<!---- Here starts WEALD enemies ---->
+	<!------------------------------------>
+	<!-- Ectoplasm -->
+	<entry id="str_monster_skill_slime"><![CDATA[{colour_start|Cdamage}Slime{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_summon_little_slime"><![CDATA[{colour_start|Cdamage}Cytokinesis{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_summon_big_slime"><![CDATA[{colour_start|Cdamage}Ectoplasmic Profusion{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Large Ectoplasm -->
+	<entry id="str_monster_skill_slime_lg"><![CDATA[{colour_start|Cdamage}Big Slime{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_summon_slime"><![CDATA[{colour_start|Cdamage}Cytokinesis{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_slime_stun"><![CDATA[{colour_start|Cdamage}Slimesmack{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<!-- Rabid Gnasher -->
+	<entry id="str_monster_skill_rabid_rush"><![CDATA[{colour_start|Cdamage}Rabid Rush{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Fungal Scratcher -->
+	<entry id="str_monster_skill_groping_swipe"><![CDATA[{colour_start|Cdamage}Groping Swipe{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_fierce_swipe"><![CDATA[{colour_start|Cdamage}Rend the Marked{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+    <entry id="str_monster_skill_groping_swipe_weak"><![CDATA[{colour_start|Cdamage}Harmless Swipe{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Fungal Artillery -->
+	<entry id="str_monster_skill_artillery_tag"><![CDATA[{colour_start|Cdamage}Mark Prey{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_artillery_blight"><![CDATA[{colour_start|Cdamage}Rain of Blight{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}3+4{colour_end}]]></entry>
+	<entry id="str_monster_skill_escape_cloud"><![CDATA[{colour_start|Cdamage}Escape Cloud{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<!-- Crone -->
+	<entry id="str_monster_skill_curse_vulnerability"><![CDATA[{colour_start|Cdamage}Curse of Vulnerability{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any (60% +1){colour_end}]]></entry>
+	<entry id="str_monster_skill_fetid_censer"><![CDATA[{colour_start|Cdamage}Fetid Censer{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1+2{colour_end}]]></entry>
+	<entry id="str_monster_skill_embrace_the_dark"><![CDATA[{colour_start|Cnodamage}Embrace the Dark{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any (50% +1){colour_end}]]></entry>
+	<!-- Unclean Giant -->
+	<entry id="str_monster_skill_club_smack"><![CDATA[{colour_start|Cdamage}Treebranch Smackdown{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_confusion_spores"><![CDATA[{colour_start|Cdamage}Confusion Spores{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_poison_spores"><![CDATA[{colour_start|Cdamage}Poison Spores{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Hateful Virago -->
+	<entry id="str_monster_skill_ruinous_hex"><![CDATA[{colour_start|Cdamage}Ruinous Hex{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any (75% +1){colour_end}]]></entry>
+	<entry id="str_monster_skill_putrefying_breath"><![CDATA[{colour_start|Cdamage}Putrefying Breath{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<entry id="str_monster_skill_from_death_comes_life"><![CDATA[{colour_start|Cnodamage}From Death Comes Life{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Summon{colour_end}]]></entry>
+	
+	<!-- Necrotic Fungus -->
+	
+	<!-- Hag -->
+	<entry id="str_monster_skill_hag_grab"><![CDATA[{colour_start|Cnodamage}Into the Pot!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_hag_tenderize"><![CDATA[{colour_start|Cdamage}Meat Tenderizer{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<entry id="str_monster_skill_hag_season"><![CDATA[{colour_start|Cdamage}Season to Perfection{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+    <entry id="str_monster_skill_hag_taste"><![CDATA[{colour_start|Cheal}Taste the Stew{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Cheal}Self{colour_end}]]></entry>
+    
+	
+	<!-- Cauldron -->
+	
+	<!-- Brigand_Pounder -->
+	<entry id="str_monster_skill_cannon_summon"><![CDATA[{colour_start|Cnodamage}Reinforcements!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Summon{colour_end}]]></entry>
+	<entry id="str_monster_skill_cannon_boom"><![CDATA[{colour_start|Cdamage}BOOOOOOOM!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+    <entry id="str_monster_skill_cannon_misfire"><![CDATA[{colour_start|Cnodamage}MISFIRE!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+    
+	
+	<!-- Brigand Matchman -->
+	<entry id="str_monster_skill_light_fuse"><![CDATA[{colour_start|Cnodamage}Fire in the Hole!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_hot_shot"><![CDATA[{colour_start|Cdamage}Hot Shot{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	
+	<!------------------------------------>
+	<!---- Here starts COVE enemies ---->
+	<!------------------------------------>
+	<!-- Pelagic Grouper -->
+	<entry id="str_monster_skill_fish_cutlass"><![CDATA[{colour_start|Cdamage}Seaward Slash{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_fish_harpoon"><![CDATA[{colour_start|Cdamage}Spearfishing{colour_end} {colour_start|Cpositions}3~4{colour_end} {colour_start|Ctargets}3~4{colour_end}]]></entry>
+	<!-- Pelagic Shaman -->
+	<entry id="str_monster_skill_fish_stresscast"><![CDATA[{colour_start|Cdamage}Stress Wave{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Ctargets}Any +1(25%) {colour_end}]]></entry>
+	<entry id="str_monster_skill_call_of_the_deep"><![CDATA[{colour_start|CBuff}Call of the Deep{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|CBuff}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_shaman_stab"><![CDATA[{colour_start|Cdamage}Ceremonial Cut{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_shaman_heal"><![CDATA[{colour_start|Cheal}Sea Breeze{colour_end} {colour_start|Cpositions}2~4{colour_end} {colour_start|Cheal}Any{colour_end}]]></entry>
+	<!-- Pelagic Guardian -->
+	<entry id="str_monster_skill_octo_cestus"><![CDATA[{colour_start|Cdamage}Octocestus{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_octo_guard"><![CDATA[{colour_start|CBuff}Barnacle Barrier{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|CBuff}Any{colour_end}]]></entry>
+	<!-- Sea Maggot -->
+	<entry id="str_monster_skill_snail_slime"><![CDATA[{colour_start|Cdamage}Brine{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Deep Stinger -->
+	<entry id="str_monster_skill_jellyfish_sting"><![CDATA[{colour_start|Cdamage}Shocker{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_jellyfish_rend"><![CDATA[{colour_start|Cdamage}Salty Gouge{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Drowned Thrall -->
+	<entry id="str_monster_skill_bloated_swipe"><![CDATA[{colour_start|Cdamage}Gargling Grab{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<entry id="str_monster_skill_explode"><![CDATA[{colour_start|Cdamage}The Revenge (Turn 2){colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Uca Major -->
+	<entry id="str_monster_skill_the_pinch"><![CDATA[{colour_start|Cdamage}Arterial Pinch{colour_end} {colour_start|Cpositions}1~3{colour_end} {colour_start|Ctargets}1~3{colour_end}]]></entry>
+	<entry id="str_monster_skill_pincer_smack"><![CDATA[{colour_start|Cdamage}Tidal Slam{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}1~2{colour_end}]]></entry>
+	<!-- Squiffy Ghast -->
+	<entry id="str_monster_skill_maddening_shanty"><![CDATA[{colour_start|Cdamage}Maddening Shanty{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<entry id="str_monster_skill_offkilter_jig"><![CDATA[{colour_start|Cdamage}Offkilter Jig{colour_end} {colour_start|Cpositions}1~2{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Siren -->
+	<entry id="str_monster_skill_siren_song"><![CDATA[{colour_start|Ccharm}Song of Desire{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ccharm}70% Charm{colour_end}]]></entry>
+	<entry id="str_monster_skill_conch_summon"><![CDATA[{colour_start|Cnodamage}High Tide{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Summon{colour_end}]]></entry>
+	<entry id="str_monster_skill_conch_celldisrupt"><![CDATA[{colour_start|Cdamage}Devour{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+    <entry id="str_monster_skill_conch_horror"><![CDATA[{colour_start|Cdamage}Pressure Crash{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}All{colour_end}]]></entry>
+	<!-- Drowned Crew -->
+	<entry id="str_monster_skill_all_hands"><![CDATA[{colour_start|Cnodamage}All Hands on Deck!{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}2~4 + Summon{colour_end}]]></entry>
+	<entry id="str_monster_skill_captain_shout_debuff"><![CDATA[{colour_start|Cdamage}Mutiny{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}2~4{colour_end}]]></entry>
+	<entry id="str_monster_skill_captain_shout"><![CDATA[{colour_start|Cdamage}Drink with the Dead{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}2~4{colour_end}]]></entry>
+	<entry id="str_monster_skill_gaffer_hook"><![CDATA[{colour_start|Cdamage}Boarding Clutch{colour_end} {colour_start|Cpositions}Any{colour_end} {colour_start|Ctargets}Any{colour_end}]]></entry>
+	<!-- Drowned Anchorman -->
+	<entry id="str_monster_skill_anchor_grapple"><![CDATA[{colour_start|Cnodamage}Heave to!{colour_end} {colour_start|Cpositions}1{colour_end} {colour_start|Ctargets}1{colour_end}]]></entry>
+
+	<!------------------------------------>
+	<!---- Here starts COURTYARD enemies ---->
+	<!------------------------------------>
+	
+	
+	
+	<!------------------------------------>
+	<!---- Here starts FARMSTEAD enemies ---->
+	<!------------------------------------>
+
+  </language>
+</root>
